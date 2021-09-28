@@ -1,0 +1,252 @@
+.dashboardheading{
+   
+    margin-top: 60px;
+   
+}
+
+.dashboard
+{
+    background-color:#fafafa;
+}
+.dashboardheading h3{
+    color:#3e396b;
+    margin-left:25px;
+    font-weight: 600;
+    text-align: start;
+    font-size: 35px;
+}
+#dashboardnavbar{
+    margin-left: -26px;
+}
+#iconid{
+    font-size: 17px;
+    margin-top: 0px;
+    color: #aaa;
+    font-family: 'Raleway', sans-serif;
+}
+#active{
+    color:#aaa;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* accountpage */
+.accountcard{
+    padding: 10px;
+    min-height: 53vh;
+    background-color: #fff;
+   
+    box-shadow: 0px 2px 27px 3px rgb(223, 212, 212);
+    font-family: 'Raleway', sans-serif;
+}
+
+.yourdetails{
+    color:#3e396b;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: start;
+    font-size: 20px;
+}
+#usericon{
+    margin-top: -5px;
+    margin-right: 10px;
+}
+#accounthr{
+    margin-top: 20px;
+}
+.accountcontent ul{
+ list-style: none;
+}
+
+#emailandpass{
+    color:#aaa;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#details{
+    font-weight: bold;
+}
+#changeemail{
+    background-color: #8075f2;
+    color: white;
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: 20px;
+}
+
+#changepassword{
+    background-color: #8075f2;
+    color: white;
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: 20px;
+}
+
+/* billpage */
+
+.billcard{
+    padding: 15px;
+    background-color: #fff;
+    margin-left: 30px;
+    box-shadow: 1px 1px 1px 1px rgb(223, 212, 212);
+
+}
+
+
+#billiconn{
+    color:#8075f2;
+    margin-right: 9px;
+    margin-top: -3px;
+}
+#yourpayment{
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;  
+    font-weight:bold;
+    color: black;
+    text-decoration: none;
+}
+
+.subhead h5{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.date p{
+    margin-right: 300px;
+    font-weight: bold;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.billdetailscard{
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgb(223, 212, 212);
+    padding: 20px;
+    min-height: 10vh;
+}
+#arrowicon{
+    color: #555;
+    font-size: 18px;
+    margin-top: -40px;
+   
+}
+#manageside{
+    margin-left: 100px;
+}
+#loveicon{
+    color: #8075f2;
+    margin-top: -20px;
+}
+#cardpricetime{
+    margin-top: -15px;
+    font-size: 12px;
+    color: #3e396b;
+    font-weight: 600;
+    text-align: justify;
+}
+.type p{
+    margin-left: 25px;
+    text-align: justify;
+}
+.type{
+    margin-top: -30px;
+}
+#nameprice{
+    color: #aaa;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+.typessjas{
+    display: none;
+}
+#loveicon{
+  display: none;
+}
+    .date p{
+        margin-right: 90px;
+        font-weight: bold;
+        color: #aaa;
+        font-size: 12px;
+    }
+
+    .type p{
+        margin-left: 15px;
+        text-align: justify;
+    }
+
+    #arrowicon{
+        color: #555;
+        font-size: 18px;
+        margin-top: -150px;
+        margin-left: 140px;
+       
+    }
+    .type{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    
+    #changeemail{
+        background-color: #8075f2;
+        color: white;
+        font-size: 10px;
+        margin-top: -4px;
+        margin-left: -10px;
+    }
+    
+    #changepassword{
+        background-color: #8075f2;
+        color: white;
+        font-size: 10px;
+        margin-top: -53px;
+        margin-left: 100px;
+    }
+
+}
+
+@media all and (device-width: 768px) {
+
+
+    .accountcard{
+        padding: 10px;
+        margin-right: 20px;
+        min-height: 25vh;
+        background-color: #fff;
+        box-shadow: 0px 2px 27px 3px rgb(223, 212, 212);
+        font-family: 'Raleway', sans-serif;
+    }
+    #changeemail{
+        background-color: #8075f2;
+        color: white;
+        font-size: 14px;
+        margin-top: -4px;
+        margin-left: 0px;
+    }
+    
+    #changepassword{
+        background-color: #8075f2;
+        color: white;
+        font-size: 14px;
+        margin-top: -4px;
+        margin-left: 20px;
+    }
+
+}
+
+@media all and (device-width: 1024px) {
+    .accountcard{
+        padding: 10px;
+        margin-right: 20px;
+        min-height: 25vh;
+        background-color: #fff;
+        box-shadow: 0px 2px 27px 3px rgb(223, 212, 212);
+        font-family: 'Raleway', sans-serif;
+    }
+
+}

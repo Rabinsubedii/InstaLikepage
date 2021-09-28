@@ -1,0 +1,84 @@
+.blogsection{
+    background-color: #663ce8;
+ 
+}
+.blogihead p, h3{
+    text-align: justify;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.blogihead p{
+    font-size: 14px;
+}
+.blogihead h3{
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 35px;
+}
+.blogihead{
+    margin-left: 60px;
+}
+.blogheadimage img{
+    height: 320px;
+    margin-left: 60px;
+    margin-top: 36px;
+}
+
+.nextblog img{
+    height: 270px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+#nextblog{
+    margin-top: 40px;
+}
+.cardpar{
+    font-size: 15px;
+    text-align: justify;
+    color: #818181;
+    padding: 21px;
+    text-align: start;
+    margin-top: -40px;
+}
+.content h3{
+    font-size: 20px;
+    text-align: start;
+    padding: 20px;
+    color: black;
+    color: #3e396b;
+    margin-right: auto;
+    margin-left: auto;    
+}
+#date{
+    padding: 20px;
+    margin-top: -40px;
+    margin-right: auto;
+    margin-left: auto;    
+    color: #818181;
+    text-align: justify;
+}
+.content{
+    padding: 10px;
+    min-height: 5vh;
+    margin-top: 30px;
+    margin-left: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgb(223, 212, 212);
+    width: 100%;;
+    font-family: 'Raleway', sans-serif;
+}
+#continuereading{
+    font-size: 17px;
+    margin-left: 15px;
+    background-color: #663ce8;
+}
+#arrowbtn{
+    margin-top:3px;
+}
+
+#blogsvg{
+    margin-top: -250px;
+   
+}

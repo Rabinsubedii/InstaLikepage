@@ -1,0 +1,198 @@
+.loginpage{
+    background-color: #eee0e0;
+    margin-top: 0px;
+}
+.logincard{
+    background-color: #fff;
+    min-height: 60vh;
+    margin: 20px;
+    padding:37px;
+    font-weight: 10;
+    border-radius: 12px;
+    margin-top:140px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 4px 4px 5px 4px rgb(223, 219, 219);
+}
+
+input, .input-group-text{
+    opacity: 0.5;
+  
+}
+.loginpagetitle p{
+    color: #818181;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 400; 
+}
+.loginpagetitle h4{
+    font-weight: 600;
+}
+form{
+    margin-top: 40px;
+}
+.autom{
+    color: #663ce8;
+    font-family: 'Poppins', sans-serif;
+}
+#signinbrn{
+    color:#fff;
+    padding: 15px;
+    font-size: 13px;
+    background-color: #663ce8;
+}
+#forgotpass{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 38%;
+}
+#signup{
+    margin-left: 65px;
+    margin-top: -20px;   
+}
+#signin{
+
+    margin-left: 105px;
+    margin-top: -20px;   
+}
+
+#reset{
+    margin-left: 105px;
+    margin-top: -20px;   
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+
+    #forgotpass{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    #reset{
+        margin-left: 15px;
+        font-size: 13px;
+        margin-top: -20px;   
+    }
+    
+    #signin{
+
+        margin-left:40px;
+        font-size: 12px;
+        margin-top: -20px;   
+    }
+    #forgotpass{
+
+        margin-left: 75px;
+        margin-top: 40px; 
+        font-size: 12px;  
+    }
+    
+    #signup{
+        margin-left: 10px;
+        font-size: 12px;
+        margin-top: -20px;   
+    }
+
+    .loginpagetitle p{
+        color: #818181;
+        font-size: 12px;
+        text-align: justify;
+        margin-top: 30px;
+        font-weight: 400; 
+    }
+    .loginpagetitle h4{
+        font-weight: 600;
+    }
+    
+}
+
+@media all and (device-width: 768px ) {
+    .logincard{
+        background-color: #fff;
+        min-height: 30vh;
+        margin: 20px;
+        padding:37px;
+        font-weight: 10;
+        border-radius: 12px;
+        font-family: 'Raleway', sans-serif;
+        box-shadow: 4px 4px 5px 4px rgb(223, 219, 219);
+    }
+    #signin{
+
+        margin-left: 15px;
+        margin-top: -20px;   
+    }
+    
+    #forgotpass{
+
+        margin-left: 45px;
+        margin-top: 20px; 
+        font-size: 12px;  
+    }
+    
+    #signup{
+        margin-left: 10px;
+        font-size: 12px;
+        margin-top: -20px;   
+    }
+
+    .loginpagetitle p{
+        color: #818181;
+        font-size: 12px;
+        text-align: justify;
+        margin-top: 30px;
+        font-weight: 400; 
+    }
+    .loginpagetitle h4{
+        font-weight: 600;
+    }
+}
+
+@media all and (device-width: 1024px ) {
+    .logincard{
+        background-color: #fff;
+        min-height: 30vh;
+        margin: 20px;
+        padding:37px;
+        font-weight: 10;
+        border-radius: 12px;
+        font-family: 'Raleway', sans-serif;
+        box-shadow: 4px 4px 5px 4px rgb(223, 219, 219);
+    }
+
+    #reset{
+        margin-left: 65px;
+        font-size: 13px;
+        margin-top: -20px;   
+    }
+    #signin{
+
+        margin-left: 55px;
+        margin-top: -20px;   
+    }
+    
+    #forgotpass{
+
+        margin-left: 105px;
+        margin-top: 20px; 
+        font-size: 12px;  
+    }
+    
+    #signup{
+        margin-left: 50px;
+        font-size: 12px;
+        margin-top: -20px;   
+    }
+
+    .loginpagetitle p{
+        color: #818181;
+        font-size: 12px;
+        text-align: justify;
+        margin-top: 30px;
+        font-weight: 400; 
+    }
+    .loginpagetitle h4{
+        font-weight: 600;
+    }
+}
